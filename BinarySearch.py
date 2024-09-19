@@ -16,4 +16,4 @@ while left <= right:
         right = middle - 1
 
 if left > right: # Fail
-    print('There is not {:3} in this list.'.format(x))
+    print(f'No {x} in this list.')
